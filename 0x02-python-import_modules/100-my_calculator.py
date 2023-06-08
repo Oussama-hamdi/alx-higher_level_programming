@@ -12,7 +12,7 @@ if __name__ == "__main__":
     if argv[2] == "+":
         result = add(int(argv[1]), int(argv[3]))
 
-    elif argv[2] == "-": 
+    elif argv[2] == "-":
         result = sub(int(argv[1]), int(argv[3]))
 
     elif argv[2] == "*":
@@ -22,7 +22,7 @@ if __name__ == "__main__":
         result = div(int(argv[1]), int(argv[3]))
 
     else:
-            print("Unknown operator. Available operators: +, -, * and /")
-            exit(1)
+        print("Unknown operator. Available operators: +, -, * and /")
+        exit(1)
 
     print("{} {} {} = {}".format(argv[1], argv[2], argv[3], result))
