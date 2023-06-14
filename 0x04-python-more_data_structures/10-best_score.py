@@ -12,5 +12,3 @@ def best_score(a_dictionary):
             num = a_dictionary[key]
             name = key
     return name
-
-
