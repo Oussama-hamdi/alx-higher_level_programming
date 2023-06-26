@@ -2,15 +2,15 @@
 
 def safe_print_list(my_list=[], x=0):
 
-    nd_printed = 0
+    if my_list == []:
+        return 0
 
-    for i in range(x):
+    for i, val in enumerate(my_list[0:x]):
         try:
-            print("{:d}".format(my_list[i]), end="")
-            nb_printed += 1
+            print("{:d}".format(val), end="")
 
         except IndexError:
-            continue
+            break
 
     print()
-    return nb_printed
+    return i + 1
