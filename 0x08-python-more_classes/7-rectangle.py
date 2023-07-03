@@ -63,7 +63,12 @@ class Rectangle:
         if not self.__width or not self.__height:
             return ""
         symbol = str(self.print_symbol)
-        return (symbol * self.__width + "\n") * self.__height
+        new_str = ""
+        for i in range(self.__height):
+            new_str += symbol * self.__width
+            if i + 1 < self.__height:
+                new_str += "\n"
+        return new_str
 
     def __repr__(self):
         """Return a string representaion of the rectangle"""
