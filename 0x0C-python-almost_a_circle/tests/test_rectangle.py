@@ -8,7 +8,7 @@ class TestRectangle(unittest.TestCase):
     """Testing rectangle.py"""
 
     def test_init(self):
-        r1 = Rectangle(10, 5)
+        r1 = Rectangle(10, 5, 0, 0, 2)
         self.assertEqual(r1.width, 10)
         self.assertEqual(r1.height, 5)
         self.assertEqual(r1.x, 0)

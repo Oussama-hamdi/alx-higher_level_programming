@@ -8,7 +8,7 @@ class Testsquare(unittest.TestCase):
     """Testing square.py"""
 
     def test_init(self):
-        s1 = Square(5)
+        s1 = Square(5, 0, 0, 3)
         self.assertEqual(s1.size, 5)
         self.assertEqual(s1.x, 0)
         self.assertEqual(s1.y, 0)
