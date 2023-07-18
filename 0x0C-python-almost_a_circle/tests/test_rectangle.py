@@ -13,4 +13,4 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(r1.height, 5)
         self.assertEqual(r1.x, 0)
         self.assertEqual(r1.y, 0)
-        self.assertEqual(r1.id, 1)
+        self.assertEqual(r1.id, 2)

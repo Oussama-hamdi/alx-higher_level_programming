@@ -12,4 +12,4 @@ class Testsquare(unittest.TestCase):
         self.assertEqual(s1.size, 5)
         self.assertEqual(s1.x, 0)
         self.assertEqual(s1.y, 0)
-        self.assertEqual(s1.id, s1.id)
+        self.assertEqual(s1.id, 3)
