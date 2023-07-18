@@ -1,11 +1,11 @@
-"""Unit test for rectangle.py file"""
+"""Unit test for rectangle.py"""
 
 import unittest
 from models.rectangle import Rectangle
 
 
 class TestRectangle(unittest.TestCase):
-    """Testing rectangle file"""
+    """Testing rectangle.py"""
 
     def test_init(self):
         r1 = Rectangle(10, 5)
